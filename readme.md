@@ -67,3 +67,8 @@ http://localhost:8080/swagger-ui/index.html
 
 ```
 
+
+### Step 7: Test the API
+
+Use the Swagger interface to upload any **.csv file.** The API will return the converted JSON string as the response.
+
