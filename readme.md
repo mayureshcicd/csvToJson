@@ -39,4 +39,31 @@ Navigate to the `csvtojson-util` project directory and run the following command
 ```bash
 mvn clean install
 mvn eclipse:eclipse   # (Optional - only if you're using Eclipse)
+```
+
+### Step 3: Build `csvtojson-util`
+
+Navigate to the `csv-to-json-processor-demo` project directory and run the following commands:
+
+```bash
+mvn clean install
+```
+
+### Step 4: Open Projects in IDE
+
+Open both csvtojson-util and csv-to-json-processor-demo projects in your preferred IDE (IntelliJ IDEA, Eclipse, or Spring Tool Suite).
+
+### 5: Run the Application
+
+Run the **csv-to-json-processor-demo** Spring Boot application.
+
+
+### Step 6: Open Swagger UI
+
+Once the application is running, open your browser and navigate to:
+
+```bash
+http://localhost:8080/swagger-ui/index.html
+
+```
 
